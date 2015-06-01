@@ -1,0 +1,96 @@
+﻿Build started 1/19/2015 8:42:18 AM.
+     1>Project "Z:\C++\FINAL\Grandma vs Cats\Grandma vs Cats\Grandma vs Cats.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib Cat.cpp MAIN.cpp OldLady.cpp testApp.cpp
+         Cat.cpp
+     1>Cat.cpp(8): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+     1>Cat.cpp(12): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+         MAIN.cpp
+     1>MAIN.cpp(6): fatal error C1083: Cannot open include file: 'ofMain.h': No such file or directory
+         OldLady.cpp
+         testApp.cpp
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(6): error C2504: 'ofBaseApp' : base class undefined
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(9): error C2146: syntax error : missing ';' before identifier 'arialFontSmall'
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(10): error C2146: syntax error : missing ';' before identifier 'arialFontLarge'
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(11): error C2146: syntax error : missing ';' before identifier 'kitten'
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(12): error C2146: syntax error : missing ';' before identifier 'grandma'
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(13): error C2146: syntax error : missing ';' before identifier 'winner'
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(14): error C2146: syntax error : missing ';' before identifier 'loser'
+     1>z:\c++\final\grandma vs cats\grandma vs cats\testApp.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>testApp.cpp(20): error C3861: 'ofBackground': identifier not found
+     1>testApp.cpp(21): error C2065: 'arialFontSmall' : undeclared identifier
+     1>testApp.cpp(21): error C2228: left of '.loadFont' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(22): error C2065: 'arialFontLarge' : undeclared identifier
+     1>testApp.cpp(22): error C2228: left of '.loadFont' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(23): error C3861: 'ofSetFrameRate': identifier not found
+     1>testApp.cpp(24): error C3861: 'ofSetVerticalSync': identifier not found
+     1>testApp.cpp(25): error C2065: 'kitten' : undeclared identifier
+     1>testApp.cpp(25): error C2228: left of '.loadImage' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(26): error C2065: 'OF_LOG_ERROR' : undeclared identifier
+     1>testApp.cpp(26): error C3861: 'ofLog': identifier not found
+     1>testApp.cpp(28): error C2065: 'grandma' : undeclared identifier
+     1>testApp.cpp(28): error C2228: left of '.loadImage' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(29): error C2065: 'OF_LOG_ERROR' : undeclared identifier
+     1>testApp.cpp(29): error C3861: 'ofLog': identifier not found
+     1>testApp.cpp(31): error C2065: 'winner' : undeclared identifier
+     1>testApp.cpp(31): error C2228: left of '.loadImage' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(32): error C2065: 'OF_LOG_ERROR' : undeclared identifier
+     1>testApp.cpp(32): error C3861: 'ofLog': identifier not found
+     1>testApp.cpp(34): error C2065: 'loser' : undeclared identifier
+     1>testApp.cpp(34): error C2228: left of '.loadImage' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(35): error C2065: 'OF_LOG_ERROR' : undeclared identifier
+     1>testApp.cpp(35): error C3861: 'ofLog': identifier not found
+     1>testApp.cpp(58): error C2065: 'loser' : undeclared identifier
+     1>testApp.cpp(58): error C2228: left of '.draw' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(59): error C3861: 'ofSetColor': identifier not found
+     1>testApp.cpp(60): error C2065: 'arialFontLarge' : undeclared identifier
+     1>testApp.cpp(60): error C2228: left of '.drawString' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(62): error C2065: 'winner' : undeclared identifier
+     1>testApp.cpp(62): error C2228: left of '.draw' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(85): error C2065: 'stringstream' : undeclared identifier
+     1>testApp.cpp(85): error C2146: syntax error : missing ';' before identifier 'ss'
+     1>testApp.cpp(85): error C2065: 'ss' : undeclared identifier
+     1>testApp.cpp(86): error C2065: 'ss' : undeclared identifier
+     1>testApp.cpp(87): error C2065: 'string' : undeclared identifier
+     1>testApp.cpp(87): error C2146: syntax error : missing ';' before identifier 'str'
+     1>testApp.cpp(87): error C2065: 'str' : undeclared identifier
+     1>testApp.cpp(87): error C2065: 'ss' : undeclared identifier
+     1>testApp.cpp(87): error C2228: left of '.str' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(88): error C3861: 'ofSetColor': identifier not found
+     1>testApp.cpp(89): error C2065: 'arialFontSmall' : undeclared identifier
+     1>testApp.cpp(89): error C2228: left of '.drawString' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(89): error C2065: 'str' : undeclared identifier
+     1>testApp.cpp(98): error C2065: 'OF_KEY_UP' : undeclared identifier
+     1>testApp.cpp(101): error C2065: 'OF_KEY_DOWN' : undeclared identifier
+     1>testApp.cpp(104): error C2065: 'OF_KEY_RIGHT' : undeclared identifier
+     1>testApp.cpp(107): error C2065: 'OF_KEY_LEFT' : undeclared identifier
+     1>testApp.cpp(147): error C2065: 'grandma' : undeclared identifier
+     1>testApp.cpp(147): error C2228: left of '.draw' must have class/struct/union
+                 type is 'unknown-type'
+     1>testApp.cpp(154): error C3861: 'ofSetColor': identifier not found
+     1>testApp.cpp(156): error C3861: 'ofSetColor': identifier not found
+     1>testApp.cpp(158): error C2065: 'kitten' : undeclared identifier
+     1>testApp.cpp(158): error C2228: left of '.draw' must have class/struct/union
+                 type is 'unknown-type'
+         Generating Code...
+     1>Done Building Project "Z:\C++\FINAL\Grandma vs Cats\Grandma vs Cats\Grandma vs Cats.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.62
